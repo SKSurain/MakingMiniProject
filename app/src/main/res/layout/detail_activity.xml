@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <!-- A RecyclerView with some commonly used attributes -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/pokemonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:text="1) N/A "
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/pokemonName"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="16dp"
+        android:src="@drawable/bilbasaur" />
+
+    <LinearLayout
+        android:id="@+id/parentColumn"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_below="@+id/image"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:paddingTop="16dp">
+
+        <RelativeLayout
+            android:id="@+id/childLeftColumn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="2"
+            android:background="@android:color/holo_blue_bright">
+
+
+            <TextView
+                android:id="@+id/childLeftText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Height"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/childLeftText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/childLeftText1"
+                android:text="Weight"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/childLeftText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/childLeftText2"
+                android:text="Ability"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/childLeftText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/childLeftText3"
+                android:text="Species"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!--<TextView-->
+            <!--android:id="@+id/childLeftText6"-->
+            <!--android:layout_below="@id/childLeftText5"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Weight"-->
+            <!--android:textSize="16sp"-->
+            <!--android:textStyle="bold"-->
+            <!--/>-->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/childRightColumn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_weight="3"
+            android:background="@android:color/holo_red_light">
+
+
+            <TextView
+                android:id="@+id/childRightText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="N/A2"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/childRightText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/childRightText2"
+                android:text="N/A3"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/childRightText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/childRightText3"
+                android:text="N/A4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/childRightText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/childRightText4"
+                android:text="N/A5"
+                android:textSize="16sp" />
+
+            <!--<TextView-->
+            <!--android:id="@+id/childRightText6"-->
+            <!--android:layout_below="@id/childRightText5"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="N/A6"-->
+            <!--android:textSize="16sp"-->
+            <!--/>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/childText7"-->
+            <!--android:layout_below="@id/childRightText6"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Milestones Achieved"-->
+            <!--android:textSize="16sp"-->
+            <!--/>-->
+            <!--<TextView-->
+            <!--android:id="@+id/childText8"-->
+            <!--android:layout_below="@id/childRightText7"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Milestones Achieved"-->
+            <!--android:textSize="16sp"-->
+            <!--/>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/childText9"-->
+            <!--android:layout_below="@id/childRightText8"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Milestones Achieved"-->
+            <!--android:textSize="16sp"-->
+            <!--/>-->
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

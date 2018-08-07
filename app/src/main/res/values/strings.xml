@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Pokemon Profile</string>
+    <string-array name="ability_array">
+        <item>100</item>
+        <item>140</item>
+        <item>150</item>
+        <item>170</item>
+        <item>200</item>
+        <item>210</item>
+    </string-array>
+
+    <string-array name="species_array">
+        <item>Seed pokemon</item>
+        <item>Lizard pokemon</item>
+        <item>Flame pokemon</item>
+        <item>Shellfish pokemon</item>
+        <item>Worm pokemon</item>
+        <item>Butterfly pokemon</item>
+    </string-array>
+    <string name="title_activity_tab">TabActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="latias"> Pokémon GO Latias is a dual typed DRAGON and PSYCHIC Pokémon and the female counterpart to Latios, making up the Eon Duo. As a legendary Pokémon first found in the Hoenn
+        region, it does not evolve to or from any other Pokémon.
+        Latias has a Max CP of 3377, with an ATK of 228, a DEF of 268, and STA of 160. Its ATK and DEF stats are an inverse of Latios’s.
+        Latias is a Level 5 raid boss that will be available 2nd of April until May 8 in Europe and Asia, and from May 8 until June 5 Latias will will appear in Raid Battles across North America,
+        South America, and Africa. Our Latias Raid Boss is available for reading.</string>
+
+    <string name="pikachu">     Pikachu is a petite, stocky mouse Pokémon that attributes a yellow overall tone
+        of fur with linear brown markings covering its backs with the inclusion of a small extra pallet on the
+        tail. It has black-tipped pointy ears and light red pouches on their cheeks, which store all its electrical charged bolts within the sacs. Its tails is shaped in the form of a lightning bolt.
+        Misty met Ash and Pikachu after the events of borrowing a bike, which is later left charred in the wood by a surge caused by Pikachu. Since then, Misty follows Ash in his travels, being consistent
+        with berating Ash of repaying her with a bike, while not involving Pikachu into the indecent. While on the adventure with Ash, she keeps the excuse to not stop following them in, though it is
+        evident that she wants to keep traveling with the protagonist as she has become accustomed with Ash and Pikachu.
+    </string>
+
+    <string name="bilbasaur">     Bulbasaur is a small, quadruped Pokémon that has blue-green skin with darker green patches. It has red eyes with white pupils and scleras. It also has pointed,
+        ear-like structures on top of its head. Its snout is short and blunt, and it has a wide mouth. A pair of small, pointed teeth are visible in the upper jaw when its mouth is open.
+        Each of its thick legs ends with three sharp claws. On its back is a green plant bulb, which is grown from a seed planted there at birth. The bulb provides it with energy through
+        photosynthesis as well as from the nutrient-rich seeds contained within.
+        Bulbasaur was mentioned in the first episode of the anime, Pokémon - I Choose You!, as one of the three starter Pokémon new Trainers in Pallet Town can choose from. Ash dreamed of owning
+        one, and it was his second choice of a starter, after Squirtle. However, when he arrived at Oak's lab, it was too late, as an unnamed Trainer who started the same day had already taken it.</string>
+
+    <string name="squirtle">    Squirtle shell is not merely used for protection. The shell rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon
+        to swim at high speeds.Squirtle was mentioned in the first episode of the anime, Pokémon - I Choose You!, as one of the three starter Pokémon new Trainers in Pallet Town can choose from.
+        Ash dreamed of owning one, and it was his first choice for his starter Pokémon. However, when he arrived at Oaks lab, he realized it was too late, as another Trainer who started the same
+        day had already taken it. It was shown battling and defeating Samurai's Metapod.
+        It wasnt until The Ties that Bind that it was revealed that the Trainer who took Squirtle was none other than Gary Oak, Ash's rival. By then, it had already evolved into a Blastoise.
+        Squirtle was seen in a flashback during I Choose You!, which is set in a different continuity from the main series. Professor Oak revealed to Ash that it had already been collected.</string>
+
+    <string name="litten">   While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs.
+    Litten (Japanese: ニャビー Nyabby) is a Fire-type Pokémon introduced in Generation VII.
+It evolves into Torracat starting at level 17, which evolves into Incineroar starting at level 34.
+Along with Rowlet and Popplio, Litten is one of three starter Pokémon of Alola available at the beginning of Pokémon Sun, Moon, Ultra Sun, and Ultra Moon.
+Along with Rowlet and Popplio, it was the second Generation VII Pokémon to be revealed to the public on May 10, 2016.</string>
+    <string name="mimikyu">  The "body" of Mimikyu shares many similarities to Pikachu. The overall structure of the disguise does resemble Pikachu, but the skin is a grayish-beige
+        color instead of yellow. Its "tail" is made of wood and has a grayish-brown color. The face of the disguise only consists of poorly drawn eyes, cheeks, and a mouth. Two holes
+        appear in the body of the costume, which are the actual eyes of Mimikyu.
+    Apparently, about 20 years ago, it was sad that Pikachu is more popular than it, so it dressed up like Pikachu in order to it become more popular among trainers.</string>
+</resources>
